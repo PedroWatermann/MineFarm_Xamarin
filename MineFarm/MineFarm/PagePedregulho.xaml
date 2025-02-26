@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineFarm.PagePedregulho"
+             Title="Farm de Pedregulho">
+    <ContentPage.Content>
+        <ScrollView Margin="5">
+            <StackLayout Margin="5">
+                <StackLayout>
+                    <Label Text="FARM DE PEDREGULHO"
+                           FontSize="40"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Center"
+                           Margin="0, 0, 0, 20"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Itens necessários:"
+                               FontSize="25"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="- Tijolos de pedra:"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="18"/>
+                        <Label Text="11x"
+                               HorizontalOptions="EndAndExpand"
+                               FontSize="18"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="- Escada de tijolos de pedra:"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="18"/>
+                        <Label Text="1x"
+                               HorizontalOptions="EndAndExpand"
+                               FontSize="18"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="- Balde de água:"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="18"/>
+                        <Label Text="1x"
+                               HorizontalOptions="EndAndExpand"
+                               FontSize="18"/>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="- Balde de lava:"
+                               HorizontalOptions="StartAndExpand"
+                               FontSize="18"/>
+                        <Label Text="1x"
+                               HorizontalOptions="EndAndExpand"
+                               FontSize="18"/>
+                    </StackLayout>
+                </StackLayout>
+                <StackLayout>
+                    <Label Text="Passo 1:"
+                           FontSize="30"
+                           Margin="0, 20, 0, 0"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="pedra_1"
+                               WidthRequest="200"
+                               Margin="10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="Separe uma área de 7 blocos de largura por 5 blocos de profundidade."
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="Passo 2:"
+                           FontSize="30"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="pedra_2"
+                               WidthRequest="200"
+                               Margin="10"
+                               HorizontalOptions="Start"/>      
+                        <Label Text="Faça o contorno interno dessa área com blocos de Tijolos de Pedra, deixando um bloco vazio ao centro de um dos lados maiores."
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="Passo 3:"
+                           FontSize="30"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="pedra_3"
+                               WidthRequest="200"
+                               Margin="10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="Em um dos lados, coloque uma Escada de Tijolos de Pedra voltada para fora e coloque também a água dentro da escada."
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="Passo 4:"
+                           FontSize="30"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="pedra_4"
+                               WidthRequest="200"
+                               Margin="10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="No outro lado, coloque o balde de lava."
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+
+                    <Label Text="Passo 5:"
+                           FontSize="30"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="pedra_5"
+                               WidthRequest="200"
+                               Margin="10"
+                               HorizontalOptions="Start"/>
+                        <Label Text="E pronto! Sempre que a lava encostar na água será gerado um bloco de pedregulho, que pode ser quebrado com qualquer picareta."
+                               VerticalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                </StackLayout>
+
+                <Button Text="Voltar"
+                        BackgroundColor="#9f0000"
+                        TextColor="White"
+                        FontAttributes="Bold"
+                        FontSize="20"
+                        CornerRadius="20"
+                        VerticalOptions="EndAndExpand"
+                        HorizontalOptions="CenterAndExpand"
+                        x:Name="btnVoltar"
+                        Clicked="btnVoltar_Clicked"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

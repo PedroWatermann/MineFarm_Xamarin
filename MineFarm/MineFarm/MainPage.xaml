@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MineFarm.MainPage"
+             BackgroundColor="Black"
+             Title="MineFarm">
+
+    <ScrollView>
+        <StackLayout Margin="5">
+            <Image Source="logo_minecraft"
+                   VerticalOptions="Start"
+                   HorizontalOptions="FillAndExpand"
+                   Margin="30"/>
+
+            <BoxView HeightRequest="1" 
+                     BackgroundColor="Gray" 
+                     HorizontalOptions="FillAndExpand"
+                     Margin="0, 0, 0, 30"/>
+            
+            <Label Text="Farms:"
+                   FontSize="Title"
+                   HorizontalOptions="CenterAndExpand"/>
+
+            <Button Text="Pedregulho" 
+                    x:Name="btnPedregulho"
+                    HorizontalOptions="FillAndExpand"
+                    VerticalOptions="StartAndExpand"
+                    BackgroundColor="DimGray"
+                    TextColor="White"
+                    TextTransform="Uppercase"
+                    FontSize="Title"
+                    FontAttributes="Bold"
+                    BorderWidth="3"
+                    BorderColor="Black"
+                    CornerRadius="50"
+                    HeightRequest="80"
+                    Clicked="btnPedregulho_Clicked"/>
+
+            <Button Text="Sair"
+                    x:Name="btnSair"
+                    CornerRadius="20"
+                    BackgroundColor="#9f0000"
+                    TextColor="White"
+                    FontAttributes="Bold"
+                    Clicked="btnSair_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

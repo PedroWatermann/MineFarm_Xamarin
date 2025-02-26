@@ -1,0 +1,17 @@
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\bin\Debug\netstandard2.0\MineFarm.deps.json
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\bin\Debug\netstandard2.0\MineFarm.dll
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\bin\Debug\netstandard2.0\ref\MineFarm.dll
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\bin\Debug\netstandard2.0\MineFarm.pdb
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.csproj.AssemblyReference.cache
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.AssemblyInfoInputs.cache
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.AssemblyInfo.cs
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.csproj.CoreCompileInputs.cache
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.sourcelink.json
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.dll
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\refint\MineFarm.dll
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\MineFarm.pdb
+C:\Users\pedro\source\repos\PedroWatermann\MineFarm_Xamarin\MineFarm\MineFarm\obj\Debug\netstandard2.0\PagePedregulho.xaml.g.cs
